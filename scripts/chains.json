@@ -2,7 +2,7 @@
   "ichibanya": {
     "name": "CoCo壱番屋",
     "category": "カレー",
-    "pdf_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
+    "file_url": "https://www.ichibanya.co.jp/menu/pdf/nutrition.pdf",
     "columns": {
       "name": "メニュー名",
       "calories": "エネルギー",
