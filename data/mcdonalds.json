@@ -1,0 +1,35 @@
+[
+  {
+    "id": "mcdonalds_big_mac",
+    "chain": "マクドナルド",
+    "category": "バーガー",
+    "name": "ビッグマック",
+    "calories": 530,
+    "protein": 26,
+    "fat": 29,
+    "carbs": 45,
+    "salt": 2.4
+  },
+  {
+    "id": "mcdonalds_double_cheeseburger",
+    "chain": "マクドナルド",
+    "category": "バーガー",
+    "name": "ダブルチーズバーガー",
+    "calories": 450,
+    "protein": 25,
+    "fat": 24,
+    "carbs": 36,
+    "salt": 2.1
+  },
+  {
+    "id": "mcdonalds_fries_m",
+    "chain": "マクドナルド",
+    "category": "サイド",
+    "name": "マックフライポテト M",
+    "calories": 410,
+    "protein": 4,
+    "fat": 20,
+    "carbs": 53,
+    "salt": 0.6
+  }
+]
