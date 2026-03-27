@@ -11,5 +11,19 @@
       "carbs": "炭水化物",
       "salt": "食塩相当量"
     }
+  },
+  "sukiya": {
+    "name": "すき家",
+    "category": "すき家メニュー",
+    "file_url": "https://images.zensho.co.jp/materials/sukiya/allergen/nutrition.pdf",
+    "size_col": "サイズ",
+    "columns": {
+      "name": "メニュー",
+      "calories": "カロリー",
+      "protein": "たんぱく質",
+      "fat": "脂質",
+      "carbs": "炭水化物",
+      "salt": "食塩相当量"
+    }
   }
 }

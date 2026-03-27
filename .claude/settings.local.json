@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.kfc.co.jp)",
+      "WebFetch(domain:www.mos.jp)",
+      "WebFetch(domain:www.kourakuen.co.jp)",
+      "WebFetch(domain:allergy.saizeriya.co.jp)"
+    ]
+  }
+}
