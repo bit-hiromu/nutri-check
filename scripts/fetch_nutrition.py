@@ -366,9 +366,12 @@ def parse_pdf(file_path: str, chain_id: str, chain_config: dict) -> list[dict]:
             # None の場合は直前の有効な値を継続して使用する
             if cat_idx != -1 and cat_idx < len(row):
                 cat_val = row[cat_idx]
-                if cat_val and str(cat_val).strip():
-                    last_category = str(cat_val).strip().replace("\n", "")
-                # None や空文字の場合は last_category をそのまま使う
+                cat_str = str(cat_val).strip().replace("\n", "") if cat_val else ""
+                # 縦書きテキストをpdfplumberが1文字ずつ読む誤検出を除外する
+                # 2文字以上の値のみ有効なカテゴリ名として採用する
+                if cat_str and len(cat_str) >= 2:
+                    last_category = cat_str
+                # None・空文字・1文字の場合は last_category をそのまま使う
 
             # ── サイズ付与 ──
             # size_col が指定されている場合、メニュー名にサイズを付加する

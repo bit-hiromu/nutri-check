@@ -5,7 +5,23 @@
       "WebFetch(domain:www.kfc.co.jp)",
       "WebFetch(domain:www.mos.jp)",
       "WebFetch(domain:www.kourakuen.co.jp)",
-      "WebFetch(domain:allergy.saizeriya.co.jp)"
+      "WebFetch(domain:allergy.saizeriya.co.jp)",
+      "WebFetch(domain:www.matsuyafoods.co.jp)",
+      "WebFetch(domain:www.yoshinoya.com)",
+      "Bash(curl -I \"https://www.yoshinoya.com/pdf/allergy/\")",
+      "Bash(curl -I \"https://www.matsuyafoods.co.jp/matsuya/pdf/260224_nutritional_matsuya.pdf\")",
+      "Bash(curl -s \"https://www.yoshinoya.com/pdf/allergy/\")",
+      "Bash(curl -I \"https://www.yoshinoya.com/pdf/allergy_cc_list/\")",
+      "Bash(curl -I \"https://www.yoshinoya.com/pdf/yoshinomi/\")",
+      "Bash(curl -I \"https://www.yoshinoya.com/pdf/karaage-zenkoku_allergy/\")",
+      "WebFetch(domain:www.bamiyan.co.jp)",
+      "WebFetch(domain:www.denny.jp)",
+      "WebFetch(domain:www.joyfull.co.jp)",
+      "WebFetch(domain:www.subway.co.jp)",
+      "WebFetch(domain:www.bikkuri-donkey.com)",
+      "WebFetch(domain:www.dennys.jp)",
+      "WebFetch(domain:www.ohsho.co.jp)",
+      "Bash(python -c \"import sys; data=sys.stdin.buffer.read\\(\\); print\\(data.decode\\(''''cp932'''', errors=''''replace''''\\)\\)\")"
     ]
   }
 }
